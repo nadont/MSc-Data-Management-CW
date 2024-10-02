@@ -1,0 +1,95 @@
+CASE BRIEF: PMM Grocery Supermarket
+PMM Grocery Supermarket has decided to move from manual ways of doing things into
+digitalize method of operation. They require a new database management system to replace the
+original system they had in place as this is no longer viable for the amount of data they are
+storing. They would like a design for a centralised database that allows web interface access
+for the employees and customers.
+PMM Grocery Supermarket is an Hampshire supermarket with branches in Waterlooville,
+Fareham, Gosport, Havant, Chichester with Portsmouth as the head office.
+Staff work in different locations based on the shift pattern and each location have a
+manager who oversees the affairs of the the location. And store manager will report
+to the headoffice.
+PMM Grocery Supermarket sells products under different categories like beverages,
+bread/bakery, Canned/Jarred goods, Dairy, Dry/baking goods, frozenfoods, meats,
+produce, cleaners, personal care, paper goods etc. And each product will have details
+like product price, product Id, product name, ingredients, allergy advice, lifestyle,
+size/volume, net weight, direction for use, nutrition info, country of origin, storage
+instruction and maunfacturer.
+Example of a details –
+Product Name – Sliced Malted Bloomer Bread
+Product Price - £1.35
+Product Id – 4088600412177
+Ingredients - 𝐖𝐡𝐞𝐚𝐭 𝐅𝐥𝐨𝐮𝐫 (𝐖𝐡𝐞𝐚𝐭 𝐅𝐥𝐨𝐮𝐫, Calcium Carbonate, Iron, Niacin, Thiamin),
+Water, Malted 𝐖𝐡𝐞𝐚𝐭 (6%), Yeast, 𝐑𝐲𝐞 Flour, Rapeseed Oil, Salt, 𝐖𝐡𝐞𝐚𝐭 Bran, 𝐖𝐡𝐞𝐚𝐭
+Semolina, Malted 𝐁𝐚𝐫𝐥𝐞𝐲 Flour, Preservative: Calcium Propionate; Flour Treatment Agent:
+Ascorbic Acid.
+Net Weight – 800g
+Lifestyle - Vegetarian
+Nutrition Info. - Per 100g: Energy 1064kJ, 251kcal Fat 1.7g of which saturates 0.2g
+Carbohydrate 48g of which sugars 4.9g Fibre 4.1g Protein 8.5g Salt 0.87g
+Storage Instructions - Store in a cool, dry place away from strong odours and direct sunlight.
+Once opened, store in an airtight container. Suitable for freezing. Freeze by date mark shown
+and use within one month. Defrost thoroughly before use. Do not refreeze once defrosted.
+Customers can make order at the store or online. Customers can register to create
+individual account with PMM Grocery Supermarket. The details of order made by
+each customer should be stored and such information can be retrieved at any time
+even after the transaction are completed.
+PMM Grocery Supermarket need to be able to run regular reports on their database
+to ensure they are able to run a successful business.
+Typical reports:
+• Basic stats on customers per city for a specific time period
+• All products with details and prices
+• Order record and delivery details.
+• Report of product availability and their location
+• Monthly income generated per city/location
+You are a junior database administrator (DBA) working for a Systems Development
+company and have been in post approximately 9 months. During this time, you have been
+working on existing database systems that have been developed by the Company’s Senior
+DBA. (You can assume that Olumuyiwa and the teaching team would have this role.)
+One of the Company’s clients has asked for a system to be developed for them (see above case
+study). The Senior DBA does not have the time to devote to this project yet and so has
+asked you to work out the design, development and justification. Therefore, the work you
+produce is for a Senior DBA – to save them thinking time when starting the project – and as
+such you can assume they understand more about databases than you do. Your report should
+take this into account and you should not describe or explain topics that the Senior DBA already
+knows but you should analyse their importance and relevance in the given scenario.
+Task T1: EERD (15 marks)
+Using the information given in the case study, draw an Enhanced Entity-Relationship Diagram
+for the database system. Do NOT include any attributes.
+The EERD should fit on ONE page and MUST be produced electronically. Hand-drawn
+diagrams will receive NO marks.
+There are a number of free or trial-period EERD drawing software packages that you can use,
+Like Lucidchart which is free to create an account with your University email.
+Task T2: Rationale and Assumptions (10 marks)
+Clearly state any assumptions you have made about the system. Assumptions are made when
+the case study text does not give you enough information. These assumptions should only relate
+to the design of the system. For example, you may have decided to include or omit certain
+entities, or you may have decided to generalise rather than specialize some entities – tell us why
+you did this. (ca 200 words)
+Task T3: Data Dictionary/ Scripts (30 marks)
+Create a data dictionary for the tables you have identified in your EERD. Don’t forget the
+intersection tables for any many-to-many relationships. The tables should contain a logical
+range of attributes and clearly indicate the keys. All tables should be in 3NF.
+For each table, the data dictionary should include the following:
+● The attributes for the table, as they will be named in the database
+● The data type and size you have chosen for each attribute
+● Where appropriate, whether an attribute is a Primary Key or could be an Alternate Key
+● For Foreign Keys, the table they relate to
+You must use the template we have provided for you at the end of this document to complete
+this task.
+Task T4: SQL Queries (45 marks)
+Create and populate a working database for the given case study. You should take on board the
+feedback from us given for all exercises and class examples on EERD and data dictionary when
+creating the required tables.
+Write THREE SQL statements that reflect the needs of the business. These statements
+should include some of the more complex SQL syntax you have learned this year.
+You will be required to run your queries and submit the screenshot of both the queries and their
+outputs.
+The marking will be for:
+● The level of complexity of each query,
+● The query being of use to the business,
+● Good input and output formatting,
+● Good design (relating back to the EERD & Data Dictionary),
+● Use of any feedback you have received about your design – not compulsory
+● Use of additional features such as constraints etc.,
+● Good differentiation among your queries
